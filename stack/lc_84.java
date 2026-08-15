@@ -1,3 +1,8 @@
+package stack;
+import java.util.*;
+
+public class lc_84 {
+
 class Solution {
     public int largestRectangleArea(int[] heights) {
 
@@ -71,4 +76,5 @@ class Solution {
     }
 
 
+}
 }
