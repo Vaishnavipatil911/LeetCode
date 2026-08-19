@@ -1,6 +1,6 @@
 package Trees;
 
-public class bst_237 {
+public class bst_235 {
 
  // Definition for a binary tree node.
  public class TreeNode {
