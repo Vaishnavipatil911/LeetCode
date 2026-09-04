@@ -26,46 +26,12 @@ This repository documents my journey of learning and practicing **Data Structure
 * 🔍 Edge-case analysis
 * 💼 Technical interview preparation
 
-> **The goal isn't to memorize solutions.
-> The goal is to understand how to arrive at them.**
-
----
-
-## 📊 LeetCode Stats
-
-<p align="center">
-
-  <img src="https://leetcard.jacoblin.cool/vaishnavipatil?theme=light&font=Karma&ext=heatmap" />
-
-</p>
-
-> 🔄 The statistics above are generated dynamically from my LeetCode profile.
-
-**LeetCode:** [@vaishnavipatil](https://leetcode.com/)
-
----
-
-# 📈 Difficulty Progress
-
-| Difficulty |                                         Progress                                        | Focus                    |
-| :--------: | :-------------------------------------------------------------------------------------: | :----------------------- |
-|   🟢 Easy  | ![Easy](https://img.shields.io/badge/Progress-Practicing-brightgreen?style=flat-square) | Fundamentals & patterns  |
-|  🟡 Medium |   ![Medium](https://img.shields.io/badge/Progress-Practicing-yellow?style=flat-square)  | Main interview focus     |
-|   🔴 Hard  |    ![Hard](https://img.shields.io/badge/Progress-Coming%20Soon-red?style=flat-square)   | Advanced problem solving |
-
-### 🎯 Current Priority
-
-```text
-Easy       ████████████████░░░░
-Medium     ████████████░░░░░░░░
-Hard       ████░░░░░░░░░░░░░░░░
-```
-
-> Progress bars will evolve as the number of solved problems increases.
-
----
-
-# 🧩 DSA Patterns
+> **The goal isn't to memorize solutions.**
+> **The goal is to understand how to arrive at them.**
+>
+> #
+>
+> # 🧩 DSA Patterns
 
 My preparation is organized around **patterns**, rather than solving completely unrelated problems.
 
@@ -124,74 +90,6 @@ My preparation is organized around **patterns**, rather than solving completely 
 * Dynamic Programming
 * Backtracking
 * Advanced Graph Algorithms
-
----
-
-# 🗂️ Repository Structure
-
-```text
-LeetCode/
-│
-├── Arrays/
-│   ├── TwoSum.java
-│   ├── BestTimeToBuyAndSellStock.java
-│   └── ...
-│
-├── Strings/
-│   ├── IsSubsequence.java
-│   ├── StringCompression.java
-│   └── ...
-│
-├── TwoPointers/
-│   ├── ContainerWithMostWater.java
-│   ├── IncreasingTripletSubsequence.java
-│   └── ...
-│
-├── SlidingWindow/
-│   ├── MaximumAverageSubarray.java
-│   ├── MaxVowels.java
-│   ├── LongestOnes.java
-│   └── ...
-│
-├── Hashing/
-│
-├── LinkedList/
-│
-├── Stack/
-│
-├── MonotonicStack/
-│
-├── BinaryTree/
-│
-├── BST/
-│
-├── BinarySearch/
-│
-├── Graph/
-│
-├── Greedy/
-│
-└── DynamicProgramming/
-```
-
----
-
-# 📋 Problem Tracker
-
-|    # | Problem                                 | Pattern        | Difficulty | Status |
-| ---: | --------------------------------------- | -------------- | :--------: | :----: |
-|    1 | Two Sum                                 | Hashing        |   🟢 Easy  |    ✅   |
-|  121 | Best Time to Buy and Sell Stock         | Array / Greedy |   🟢 Easy  |   🔄   |
-|  392 | Is Subsequence                          | Two Pointers   |   🟢 Easy  |    ✅   |
-|  443 | String Compression                      | Two Pointers   |  🟡 Medium |    ✅   |
-|   11 | Container With Most Water               | Two Pointers   |  🟡 Medium |    ✅   |
-|  334 | Increasing Triplet Subsequence          | Greedy         |  🟡 Medium |    ✅   |
-|  643 | Maximum Average Subarray I              | Sliding Window |   🟢 Easy  |    ✅   |
-| 1456 | Maximum Number of Vowels in a Substring | Sliding Window |  🟡 Medium |    ✅   |
-| 1004 | Max Consecutive Ones III                | Sliding Window |  🟡 Medium |    ✅   |
-| 2215 | Find the Difference of Two Arrays       | Hashing        |   🟢 Easy  |   🔄   |
-
-> 💡 This table will grow as more problems are solved.
 
 ---
 
@@ -306,26 +204,7 @@ Instead:
           Dynamic Programming
 ```
 
----
-
-# 🏆 Milestones
-
-* [x] Learn basic array patterns
-* [x] Practice string problems
-* [x] Learn two pointers
-* [x] Learn sliding window
-* [x] Practice hashing
-* [x] Practice linked lists
-* [x] Practice stacks
-* [x] Learn monotonic stack
-* [x] Practice binary trees
-* [ ] Strengthen BST problems
-* [ ] Master binary search patterns
-* [ ] Complete graph fundamentals
-* [ ] Strengthen greedy algorithms
-* [ ] Learn dynamic programming
-* [ ] Regularly solve Medium problems
-* [ ] Start consistent Hard problem practice
+#
 
 ---
 
