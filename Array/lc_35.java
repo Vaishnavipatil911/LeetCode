@@ -1,9 +1,8 @@
-package Array;
 
 public class lc_35 {
     class Solution {
     public int searchInsert(int[] nums, int target) {
-        int i=0;
+        //int i=0;
        int l=0;
         int r=nums.length-1;
         while(l<=r)
