@@ -1,10 +1,7 @@
 package Trees;
-import java.util.*;
+
+
 public class lc_98 {
-
-    
-
- // Definition for a binary tree node.
   public class TreeNode {
    int val;
    TreeNode left;
