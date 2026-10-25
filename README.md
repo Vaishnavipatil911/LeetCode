@@ -15,8 +15,6 @@
 
 ## 👋 About This Repository
 
-Welcome to my **LeetCode DSA practice repository**.
-
 This repository documents my journey of learning and practicing **Data Structures & Algorithms**, with a strong focus on:
 
 * 🧩 Pattern recognition
