@@ -1,4 +1,5 @@
-import java.*;
+import java.util.*;
+
 class Solution {
     public long maxScore(int[] nums1, int[] nums2, int k) {
         int n=nums1.length;
