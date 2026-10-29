@@ -1,0 +1,6 @@
+/**
+ * GuessGame
+ */
+public class GuessGame {
+
+}
