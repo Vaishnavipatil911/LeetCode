@@ -33,5 +33,10 @@ public class Solution extends GuessGame {
         }
         return -1;
     }
+
+    private int guess(int mid) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'guess'");
+    }
 }
 }
