@@ -1,42 +1,37 @@
-import java.util.Collections;
-import java.util.PriorityQueue;
+import java.util.ArrayList;
+import java.util.List;
 
 public class lc_216 {
     class Solution {
-    public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-        
-
-        for(int num:nums)
-        {
-            maxHeap.offer(num);
-        }
-        int result=0;
-        for(int i=0;i<k;i++)
-        {
-            result=maxHeap.poll();
-        }
+    public List<List<Integer>> combinationSum3(int k, int n) {
+        List<Integer>current=new ArrayList<>();
+        List<List<Integer>> result=new ArrayList<>();
+        backtrack(1,k,n,current,result);
         return result;
-    }
-}
-}
-
-
-//Solution With MinHeap
-/*class Solution {
-    public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         
+    }
 
-        for(int num:nums)
+    public void backtrack(int start, int k, int target, List<Integer>current, List<List<Integer>>result)
+    {
+        if(k==0)
         {
-            minHeap.offer(num);
+            if(target==0)
+            {
+                result.add(new ArrayList<>(current));
+            }
+            return;
         }
-        while(minHeap.size()>k)
+
+        for(int i=start; i<=9-k+1; i++)
         {
-            minHeap.poll();
+            if(i>target)
+            {
+                break;
+            }
+            current.add(i);
+            backtrack(i+1, k-1, target-i, current, result);
+            current.remove(current.size()-1);
         }
-        return minHeap.peek();
     }
 }
-    */
+}
